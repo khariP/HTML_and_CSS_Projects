@@ -1,7 +1,8 @@
-<reciept>
+
+
 	function My_First_Function() {
-	var string = "Kiss Me, I'm Irish!";
-	var result = "string.fontcolor("green");
-	document.getElemenByid("Irish").innerHTML=
+	var String = "Kiss Me, I'm Irish!";
+	var result = String.fontcolor("green");
+	document.getElementById("irish").innerHTML=
 	result;
 	}
