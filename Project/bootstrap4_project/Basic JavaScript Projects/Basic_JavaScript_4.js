@@ -1,10 +1,14 @@
 function my_Dictionary() {
-    var Animal = {
-        Species:"Dog",
-        Color:"Black",
-        Breed:"Labrador",
+    var Players = {
+        PG:"Point Guard",
+        Height:"How Tall",
+        Strength:"Handle",
+        Weakness:"Defense",
+        Weakness:"Defense",
         Age:5,
-        Sound:"Bark!",
+       
+        delete Players.Weakness,
+    
     }
-    document.getElementById("Dictionary").innerHTML = Animal.Sound;
+    document.getElementById("Dictionary").innerHTML = Players.Weakness;
 }
