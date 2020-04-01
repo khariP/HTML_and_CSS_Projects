@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+
+<button onclick="add_Function()">add</button>
+<button onclick="subtract_Function()">subtract</button>
+<button onclick="multiplication_Function()">multiplication</button>
+<button onclick="division_Function()">division</button>
+<button onclick="more_Math()">more Math</button>
+<button onclick="modulus_Operator()">modulus Operator</button>
+<button onclick="negation_operator()">negation operator</button>
+
+
+
+
+<script>
+function add_Function() {
+    var add1 = 2+2;
+  document.getElementById("demo").innerHTML = "2 + 2 = " + add1;
+  }
+  function subtract_Function() {
+    var subtract1 = 5-2;
+      document.getElementById("demo").innerHTML = "5 - 2 = " + subtract1;
+  }
+  function multiplication_Function() {
+    var multiplication1 = 6*8;
+      document.getElementById("demo").innerHTML = "6 * 8 = " + multiplication1;
+
+  }
+  function division_Function() {
+    var division1 = 48/8;
+      document.getElementById("demo").innerHTML = "48 / 8 = "  + division1;
+
+  }
+  function more_Math () {
+      var simple_Math = (1+2) * 10 /2-5;
+      document.getElementById("demo") .innerHTML = "1 plus 2, multlied by 10," + 
+      "divided in half and then subtracted by 5 equals " + simple_Math;
+  }
+  function modulus_Operator () {
+      var simple_Math = 25 % 6;
+      document.getElementById("demo").innerHTML = "When you divide 25 by 6 you have a ," + 
+      "remainder of: " + simple_Math; 
+     }
+
+  function negation_operator() {
+      var x = 10;
+      document.getElementById("demo").innerHTML = -x;
+  }
+      var x = 5;
+      x++;
+      document.write(x);
+
+      
+      var x = 5.25;
+      x--;
+      document.write(x); 
+
+      window.alert(Math.random());
+
+      window.alert(Math.random() * 100);
+
+      var y = Math.sqrt(16);
+      document.write(y);
+
+
+
+
+</script>
+
+</body>
+</html>
